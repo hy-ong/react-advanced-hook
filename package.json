@@ -1,7 +1,15 @@
 {
   "name": "react-advanced-hook",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hy-ong/react-advanced-hook.git"
+  },
+  "author": {
+    "name": "Ong Hoe Yuan",
+    "email": "hy-ong@outlook.com"
+  },
   "main": "dist/index.js",
   "types": "dist/types/index.d.ts",
   "scripts": {
@@ -11,10 +19,6 @@
     "format": "prettier --write 'src/**/*.{js,jsx,ts,tsx,json,css,md}'"
   },
   "keywords": [],
-  "author": {
-    "name": "Ong Hoe Yuan",
-    "email": "hy-ong@outlook.com"
-  },
   "license": "ISC",
   "peerDependencies": {
     "@types/react": "^18.2.75",
