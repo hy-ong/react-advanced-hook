@@ -1,7 +1,7 @@
 import { useCallback, useRef, useState } from "react"
 import { PaginationHooks, PaginationMeta } from "../../types"
 
-function usePagination(): PaginationHooks {
+export default function usePagination(): PaginationHooks {
   const [meta, setMeta] = useState<PaginationMeta>()
   const refOnPageChange = useRef<(page: number) => void>()
 
@@ -49,5 +49,3 @@ function usePagination(): PaginationHooks {
     setOnPageChange,
   }
 }
-
-export default usePagination
